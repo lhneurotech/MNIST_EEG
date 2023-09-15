@@ -10,7 +10,7 @@ This project aims to build a Transformer-based model to predict MNIST numbers fr
 #### 1.1 Embedding layer
 
 * **Task 1.1.1**: Implement an embedding strategy suitable for EEG data
-* **Task 1.1.2**: Implement the embedding layer
+* **Task 1.1.2**: Implement a positional embedding strategy
 
 #### 1.2 Encoder
 
