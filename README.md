@@ -7,7 +7,7 @@ This project aims to use electroencephalogram (EEG) data to predict MNIST number
 ## Dataset
 ### EEG to MNIST Dataset
 
-For our project we will be using MindBigData's 2023 MNIST-8B dataset that contains 140,000 two second labeled data points. Each data point corresponds to a particular MNIST digit.
+For our project we will be using MindBigData's 2023 MNIST-8B dataset that contains 140,000 two second labeled data points. Each data point corresponds to a particular MNIST digit. [Dataset](https://huggingface.co/datasets/DavidVivancos/MindBigData2023_MNIST-8B)
 
 * **EEG data**: Contains raw EEG data captured from 128 channels sampled at 250hz
 * **Labesls**: MNIST numbers 0-9 that the subject was both visualizing and listening to
