@@ -26,5 +26,5 @@ Apply baseline correction for each epoched data to preserve accuracy.
 
 **6. Convert to Tensor**
 
-This is the final step of the Dataloader. The dataloader __getitem__ function should then return the EEG signal and the label packaged into a dictionary.
+This is the final step of the Dataloader. The dataloader '__getitem__' function should then return the EEG signal and the label packaged into a dictionary.
 
