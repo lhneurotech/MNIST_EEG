@@ -18,13 +18,17 @@ Load CSV file into MNE. Implement Notch filtering, Independant Component Analysi
 
 **4. Epoching**
 
-I don't think this step will be too hard the data should already be epoched for us. I have this here in case that isn't the situation.
+I don't think this step will be too hard, the data should already be epoched for us. I have this here in case that isn't the situation.
 
 **5. Baseline Correction**
 
 Apply baseline correction for each epoched data to preserve accuracy.
 
-**6. Convert to Tensor**
+**6. Normalization**
+
+Apply normalization on all epochs. This is important for the success of the Transformer.
+
+**7. Convert to Tensor**
 
 This is the final step of the Dataloader. The dataloader '__getitem__' function should then return the EEG signal and the label packaged into a dictionary.
 
